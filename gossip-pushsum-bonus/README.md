@@ -1,6 +1,6 @@
 # Gossip-PushSum-Bonus
 
-Effeciency of topologies are tested in the case when failure nodes are introduced.
+Efficiency of topologies are tested in the case when failure nodes are introduced.
 
 ## Installation
 
