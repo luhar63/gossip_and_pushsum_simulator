@@ -1,12 +1,26 @@
-# COP5615DOS
+# Gossip-PushSum
 
-A repository for COP 5615, Distributed Operating Systems, by Prof Alin Dobra, at UF-Fall 2019
-Project 2 - Gossip Simulator
-Due Date: 1st October (till 11:59pm)
-• One Submission Per Group
-• Submit using eLearning
-• What to Include:
+A simulator in Elixir for these communication algorithms for aggregating Information: Gossip and Push-sum.
 
-- README file including group members
-- Lastnames.zip: the code for the project
-- Lastnames-bonus.zip: the code for the project
+The goal of the simulator is to determine the convergence time and ratio for a given number of nodes, and judge the performance for the different topologies. The simulator can run following topologies: 2D Grid, 3D Torus Grid, Honeycomb, Full, Line. Also provided is the simulation and testing of node failure conditions.
+
+Tested the conditions in case of node failures as well in bonus section.
+
+Implementation is done as described in this publication: https://www.cs.cornell.edu/johannes/papers/2003/focs2003-gossip.pdf
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `gossip` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:gossip, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at [https://hexdocs.pm/gossip](https://hexdocs.pm/gossip).
