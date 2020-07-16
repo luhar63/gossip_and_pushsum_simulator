@@ -1,6 +1,6 @@
-# Gossip
+# Gossip-PushSum-Bonus
 
-**TODO: Add description**
+Effeciency of topologies are tested in the case when failure nodes are introduced.
 
 ## Installation
 
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/gossip](https://hexdocs.pm/gossip).
-
